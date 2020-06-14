@@ -10,6 +10,9 @@ public class CountryResponse implements Serializable {
     private int population;
     private float life_expectancy;
 
+    public CountryResponse() {
+    }
+
     public CountryResponse(String name, String continent, int population, float life_expectancy,
                            String country_language) {
         this.name = name;

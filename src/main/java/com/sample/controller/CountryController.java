@@ -1,7 +1,6 @@
 package com.sample.controller;
 
 import com.sample.CountryNotFoundException;
-import com.sample.model.Country;
 import com.sample.model.CountryResponse;
 import com.sample.service.CountryService;
 import org.springframework.beans.factory.annotation.Autowired;
